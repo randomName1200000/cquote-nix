@@ -3,8 +3,8 @@ with import <nixpkgs> {};
 
 with pkgs;
 stdenv.mkDerivation {
-  name = "nix-test";
-  version = "0.0.1";
+  name = "cqoute";
+  version = "1.0.1";
   src = ./.;
   buildInputs = [ ];
 
